@@ -6,36 +6,43 @@ const x = 5;
 
 /** if문 */
 if (x === 1) {
-    console.log("🚀 ~ one")
+  console.log("🚀 ~ one");
 } else if (x === 2) {
-    console.log("🚀 ~ two")
+  console.log("🚀 ~ two");
 } else if (x === 3) {
-    console.log("🚀 ~ three")
+  console.log("🚀 ~ three");
 } else {
-    console.log("🚀 ~ etc")
+  console.log("🚀 ~ etc");
 }
 
 /** switch 문 */
 switch (x) {
-    case 1:
-        console.log("🚀 ~ one");
-        break;
-    case 2:
-        console.log("🚀 ~ two");
-        break;
-    case 3:
-        console.log("🚀 ~ three");
-        break;
-    default:
-        console.log("🚀 ~ etc");
+  case 1:
+    console.log("🚀 ~ one");
+    break;
+  case 2:
+    console.log("🚀 ~ two");
+    break;
+  case 3:
+    console.log("🚀 ~ three");
+    break;
+  default:
+    console.log("🚀 ~ etc");
 }
 
 /** 3항 연산자 */
-x === 1 ?
-    console.log("🚀 ~ one") : x === 2 ?
-        console.log("🚀 ~ two") : x === 3 ?
-            console.log("🚀 ~ three") : console.log("🚀 ~ etc");
-
+x === 1
+  ? console.log("🚀 ~ one")
+  : x === 2
+  ? console.log("🚀 ~ two")
+  : x === 3
+  ? console.log("🚀 ~ three")
+  : console.log("🚀 ~ etc");
 
 /** or 연산자 */
-console.log((x === 1 && "🚀 ~ one") || (x === 2 && "🚀 ~ two") || (x === 3 && "🚀 ~ three") || ("🚀 ~ etc"));
+console.log(
+  (x === 1 && "🚀 ~ one") ||
+    (x === 2 && "🚀 ~ two") ||
+    (x === 3 && "🚀 ~ three") ||
+    "🚀 ~ etc"
+);
