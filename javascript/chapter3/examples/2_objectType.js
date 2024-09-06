@@ -14,12 +14,12 @@ console.log("🚀 ~ type of o3:", typeof o3);
 
 /** properties를 가지는 객체 */
 const user = {
-  id: 1,
-  name: "hong",
-  get: function (obj) {
-    return `${obj.id}:${obj.name}`;
-  },
-  getInfo() {
-    return `${this.id}:${this.name}`;
-  },
+    id: 1,
+    name: "hong",
+    get: function (obj) {
+        return `${obj.id}:${obj.name}`;
+    },
+    getInfo() {
+        return `${this.id}:${this.name}`;
+    },
 };
