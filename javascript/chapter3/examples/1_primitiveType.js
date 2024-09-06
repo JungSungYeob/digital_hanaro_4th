@@ -74,7 +74,9 @@ console.log("🚀 ~ key for sym3", Symbol.keyFor(sym3)) //undefined
 
 /** undefined & null */
 u = undefined;
+console.log("🚀 ~ u:", u)
 nu = null;
+console.log("🚀 ~ nu:", nu)
 console.log("🚀 ~ u === nu:", u === nu)
 console.log("🚀 ~ type of u:", typeof(u)) //undefined
 console.log("🚀 ~ type of nu:", typeof(nu)) //object '비트 패턴인줄 알고 객체로 인식하는 오류'
