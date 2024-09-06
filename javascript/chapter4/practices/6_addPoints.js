@@ -1,9 +1,9 @@
 /** 방법1 */
 function addPoints(a, b) {
-  lenA = a.toString().length - Math.trunc(a).toString().length - 1;
-  lenB = b.toString().length - Math.trunc(b).toString().length - 1;
+    lenA = a.toString().length - Math.trunc(a).toString().length - 1;
+    lenB = b.toString().length - Math.trunc(b).toString().length - 1;
 
-  console.log((a + b).toFixed(Math.max(lenA, lenB)));
+    console.log((a + b).toFixed(Math.max(lenA, lenB)));
 }
 
 addPoints(0.21354, 0.1);

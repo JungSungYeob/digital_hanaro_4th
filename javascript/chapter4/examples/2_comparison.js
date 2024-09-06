@@ -23,7 +23,7 @@ console.log("🚀 ~ NaN === NaN :", NaN === NaN); //false
 /** || 그리고 && */
 console.log("\n----- || 그리고 && -----");
 const T = true,
-  F = false;
+    F = false;
 let z = 1;
 console.log("🚀 ~ T || z++, T && z++, z", T || z++, T && z++, z); //true 1 2
 console.log("🚀 ~ F || z++, F && z++, z", F || z++, F && z++, z); //2 false 3
@@ -31,7 +31,7 @@ console.log("🚀 ~ F || z++, F && z++, z", F || z++, F && z++, z); //2 false 3
 /** 이름 표현 */
 console.log("\n----- 이름 표현하기 -----");
 const first = "",
-  last = "Bob";
+    last = "Bob";
 console.log(`🚀 ~ ${first} ${last}`); // bad... : Why? -> first 미입력 시 공백 후 last 출력
 console.log(`🚀 ~ ${first}${first ? " " : ""}${last}`); // Good -> 삼항 연산자를 통해 first(있으면 true 없으면 false) 공백 여부 결정
 console.log(`🚀 ~ ${first}${first && " "}${last}`); // Best! -> &&로 first가 true이면 공백 없으면 무시 : 좀 생각하기 빡세네;

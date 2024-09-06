@@ -23,7 +23,7 @@ console.log("🚀 ~ 1 + true:", 1 + true);
 /** 할당 */
 console.log("\n----- 할당 -----");
 let aa = 1,
-  bb = 2;
+    bb = 2;
 let cc = (aa++, bb++); // 2 , 3
 let dd = (aa--, bb + aa); // 1 , 4
 console.log("🚀 aa, bb, cc, dd :", aa, bb, cc, dd);

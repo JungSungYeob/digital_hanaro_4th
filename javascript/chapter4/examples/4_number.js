@@ -2,16 +2,16 @@
 console.log("\n----- 숫자에 대한 고찰-----");
 console.log("🚀 ~ Number.isNaN(Infinity):", Number.isNaN(Infinity));
 console.log(
-  "🚀 ~ Number.isSafeInteger(Number.MAX_SAFE_INTEGER + 1):",
-  Number.isSafeInteger(Number.MAX_SAFE_INTEGER + 1)
+    "🚀 ~ Number.isSafeInteger(Number.MAX_SAFE_INTEGER + 1):",
+    Number.isSafeInteger(Number.MAX_SAFE_INTEGER + 1)
 ); //false
 console.log(
-  "🚀 ~ Number.isSafeInteger(2222222222222222222222):",
-  Number.isSafeInteger(2222222222222222222222)
+    "🚀 ~ Number.isSafeInteger(2222222222222222222222):",
+    Number.isSafeInteger(2222222222222222222222)
 ); //false
 console.log(
-  "🚀 ~ Number.isSafeInteger(2222222222222222222222n):",
-  Number.isSafeInteger(2222222222222222222222n)
+    "🚀 ~ Number.isSafeInteger(2222222222222222222222n):",
+    Number.isSafeInteger(2222222222222222222222n)
 ); //false
 
 /**소수 자리 처리 */
@@ -48,6 +48,6 @@ console.log("🚀 ~ c + d:", c + d);
 console.log("🚀 ~ c + d === 0.43:", c + d === 0.43); //false
 
 console.log(
-  "🚀 ~ Math.abs(c + d - 0.34) < Number.EPSILON:",
-  Math.abs(c + d - 0.43) < Number.EPSILON
+    "🚀 ~ Math.abs(c + d - 0.34) < Number.EPSILON:",
+    Math.abs(c + d - 0.43) < Number.EPSILON
 ); //false
