@@ -19,7 +19,7 @@ let q, s, r;
 console.log("🚀 ~ r, q, s:", r, q, s);
 
 const arr = [1, 2, 3, 4, 5];
-const [a1,a2,...rest] = arr;
-console.log("🚀 ~ a1,a2,...rest:", a1,a2,...rest)
+const [a1, a2, ...rest] = arr;
+console.log("🚀 ~ a1,a2,...rest:", a1, a2, ...rest);
 //const {l,m,...resObj} = obj;
 //console.log("🚀 ~ l,m,...resObj:", l,m,...resObj)
