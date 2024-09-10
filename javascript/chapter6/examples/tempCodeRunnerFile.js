@@ -1,1 +1,0 @@
-const {l,m,...resObj} = obj;
