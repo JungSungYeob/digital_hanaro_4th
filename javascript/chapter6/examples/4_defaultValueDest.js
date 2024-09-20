@@ -13,6 +13,9 @@ const obj = { i: 1, j: 2, l: 3, m: 4, n: 5 };
 let { j, i, k = i * j } = obj;
 console.log("🚀 ~ j, i, k:", j, i, k);
 
+const {y,x=y*10,z} = obj;
+console.log("🚀 ~ x:", x)
+
 let q, s, r;
 ({ r = q * 10, q, s } = { q: 10, s: 20 });
 
