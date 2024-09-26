@@ -1,26 +1,11 @@
 import Login from './Login';
 import Profile from './Profile';
-
-type User = {
-    id: number;
-    name: string;
-};
-
-type Cart = {
-    id: number;
-    name: string;
-    price: number;
-};
-
-type Session = {
-    loginUser: null | User;
-    cart: Cart[];
-};
+import { Session } from '../App';
 
 type Props = {
     session: Session;
     logout: () => void;
-    login: (user: User) => void;
+    login: (id: number, name: string) => void;
 };
 
 export default function My({ session, logout, login }: Props) {

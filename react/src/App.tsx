@@ -14,7 +14,7 @@ type Cart = {
     price: number;
 };
 
-type Session = {
+export type Session = {
     loginUser: User | null;
     cart: Cart[];
 };
@@ -35,7 +35,8 @@ function App() {
     const plusCount = () => setCount(count + 1);
     const minusCount = () => setCount(count - 1);
     const logout = () => setSession({ ...session, loginUser: null });
-    const login = (user: User) => setSession({ ...session, loginUser: user });
+    const login = (id: number, name: string) =>
+        setSession({ ...session, loginUser: { id, name } });
     return (
         <>
             <Hello
