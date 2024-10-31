@@ -1,6 +1,6 @@
 function counter() {
     let count = 0;
-    return function X() {
+    return ()=> {
         count += 1;
         return count;
     };
