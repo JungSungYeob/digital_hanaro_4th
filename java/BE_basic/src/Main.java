@@ -23,6 +23,13 @@ public class Main {
 			default:
 				System.out.println('F');
 		}
+
+		double a = 1.3;
+		System.out.println(a);
+		int b = (int)a;
+		System.out.println(b);
+		double c = (double)b;
+		System.out.println(c);
 	}
 }
 
