@@ -2,6 +2,7 @@ package trythis.school;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Scanner;
@@ -61,6 +62,7 @@ public class Test {
 
 		scoreList.removeAll(maxAll);
 		scoreList.removeAll(minAll);
+		Collections.reverse(scoreList);
 
 		System.out.println(scoreList.toString());
 		iterator = scoreList.listIterator();

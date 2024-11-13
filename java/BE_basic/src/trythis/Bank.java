@@ -10,7 +10,7 @@ public class Bank {
 		Scanner scan = new Scanner(System.in);
 		Account acc1 = new Account("11-111-1111", "코난", 20000);
 		Account acc2 = new Account("22-222-2222", "장미", 100000);
-		Account acc4 = new Account("33-333-3333", "뭉치", 200000000);
+		Account acc4 = new Account("33-333-3333", "뭉치", 200000001);
 
 		System.out.println(acc1.toString());
 		System.out.println(acc2.toString());
